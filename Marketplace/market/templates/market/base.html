@@ -6,12 +6,12 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <title>Market</title>
+    <title> {% block title %}{%endblock} | Market</title>
 </head>
 <body>
     <div class="px-6 py-6">
         {% block content %}
-        {%endblock}
+        {%endblock%}
     </div>
 </body>
 </html>
