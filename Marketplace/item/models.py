@@ -21,3 +21,6 @@ class Item(models.Model):
     vendu = models.BooleanField(default=False)
     ajoute_par = models.ForeignKey(User, related_name='items', on_delete=models.CASCADE)
     ajoute_le = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
