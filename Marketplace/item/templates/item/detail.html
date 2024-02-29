@@ -9,6 +9,14 @@
     </div>
     <div class="col-span-2 px-6 bg-gray-100 rounded-xl">
         <h1 class="mb-6 text-3xl">{{ item.name}}</h1>
+        <p class="text-gray-500"><strong>Prix</strong> {{ item.prix }}</p>
+        <p class="text-gray-500"><strong>Vendeur</strong> {{ item.ajoute_par.username }}</p>
+
+        <p class="text-gray-700">
+            <strong class="text-gray-500">Description</strong><br>
+            {{ item.description}}
+        </p>
+
     </div>
 </div>
 
