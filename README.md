@@ -5,7 +5,9 @@
 ![Page d'accueil 2](https://github.com/user-attachments/assets/c2c761aa-4075-42da-92f7-d65c83d50352)
 
 <div>
+  
   ![Signup page](https://github.com/user-attachments/assets/a5de6df3-777d-495b-a5cb-1d5da8b9b534)
+
 </div>
 
 <div>
